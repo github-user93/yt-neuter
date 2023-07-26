@@ -191,6 +191,8 @@ youtube.com###clarify-box
 youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_TOPIC]
 ! box art (game being played)
 youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
+! show metadata
+youtube.com###collapsible > .ytd-metadata-row-container-renderer
 ! featured music
 youtube.com##ytd-video-description-music-section-renderer
 ! featured playlist #37
@@ -211,20 +213,14 @@ youtube.com###donation-shelf
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
 ! ads
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
-! shelves in watch-next recommendations (shorts shelf)
-youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
 ! shop products in this video
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="shopping_panel_for_entry_point"]
 
 !! recommendations sidebar
-! recommendations categories
-youtube.com##yt-chip-cloud-renderer
 ! mixes
 youtube.com##.ytd-compact-radio-renderer
 ! movie suggestions
 youtube.com##ytd-compact-movie-renderer
-! yt music
-youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
 ! new/ fundraiser/ 4k badges
 youtube.com##.badge:has(span:has-text(Fundraiser))
 youtube.com##.badge:has(span:has-text(New))
@@ -236,9 +232,6 @@ youtube.com##ytd-feed-nudge-renderer
 ! mixes
 youtube.com##.ytp-videowall-still[data-is-mix=true]
 
-!!! shorts
-! share button (#38)
-youtube.com###share-button.ytd-reel-player-overlay-renderer
 
 !!! channel page
 !! shelves
