@@ -213,6 +213,8 @@ youtube.com###donation-shelf
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="ytbc-related-shelf"]
 ! ads
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
+! shelves in watch-next recommendations (shorts shelf)
+youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer
 ! shop products in this video
 youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="shopping_panel_for_entry_point"]
 
