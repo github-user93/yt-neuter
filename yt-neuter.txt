@@ -80,6 +80,9 @@ youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-renderer[c
 !! video elements (#38)
 ! download button
 youtube.com##ytd-menu-service-item-download-renderer
+! download button on playlists
+youtube.com##.ytd-download-playlist-button-renderer
+
 
 !!! sidebar
 !! buttons
