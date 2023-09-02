@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Title: YouTube Neuter
-! Last modified: 2023/07/01
+! Title: Usable YouTube Neuter
+! Last modified:
 ! Expires: 1 day
-! Homepage: https://github.com/mchangrh/yt-neuter
+! Homepage: https://github.com/github-user93/usable-yt-neuter
 ! Licence: Unlicense
 !
 
